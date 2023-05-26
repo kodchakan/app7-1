@@ -36,14 +36,14 @@ export default function FormRegister() {
                         </div>
 
                         <div class="form-floating mb-3 mt-3">
-                            <h5>Gender</h5>
+                            <h5>Gender :</h5>
                             <div class="form-check">
                                 <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked />
                                 <label class="form-check-label" for="flexRadioDefault1">
                                     Male
                                 </label>
                             </div>
-
+                            
                             <div class="form-check">
                                 <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" />
                                 <label class="form-check-label" for="flexRadioDefault2">
@@ -82,7 +82,7 @@ export default function FormRegister() {
                         </div>
 
                         <div class="form-floating mb-3 mt-3">
-                            <h5>Intersted</h5>
+                            <h5>Intersted :</h5>
                             <div class="form-check form-check-inline">
                                 <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1" />
                                 <label class="form-check-label" for="inlineCheckbox1">Game</label>
@@ -97,7 +97,7 @@ export default function FormRegister() {
                             </div>
                         </div>
 
-                        <button mt-3 type='submit' className='btn btn-primary'> Register</button>
+                        <button mt-3 type='submit' className='btn btn-primary'> Register</button> &nbsp;
                         <button type='reset' className='btn btn-primary'> Cancle</button>
 
                     </form>
